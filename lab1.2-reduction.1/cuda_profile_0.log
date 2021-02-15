@@ -1,0 +1,7 @@
+# CUDA_PROFILE_LOG_VERSION 2.0
+# CUDA_DEVICE 0 GeForce GTX 480
+# TIMESTAMPFACTOR fffff4d65544c758
+method,gputime,cputime,occupancy,l1_shared_bank_conflict,shared_load,shared_store
+method=[ memcpyHtoD ] gputime=[ 0.896 ] cputime=[ 6.000 ] 
+method=[ _Z9reductionPfi ] gputime=[ 6.208 ] cputime=[ 22.000 ] occupancy=[ 0.167 ] l1_shared_bank_conflict=[ 0 ] shared_load=[ 41 ] shared_store=[ 36 ] 
+method=[ memcpyDtoH ] gputime=[ 1.408 ] cputime=[ 11.000 ] 
